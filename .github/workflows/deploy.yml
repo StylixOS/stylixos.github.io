@@ -31,7 +31,7 @@ jobs:
       - name: Clone GitLab repository
         shell: bash
         run: |
-          git clone --depth 1 git@gitlab.com:stylixos/packages.git source
+          git clone --depth 1 git@gitlab.com:stylixos/homepage.git source
 
       - name: Prepare site
         shell: bash
